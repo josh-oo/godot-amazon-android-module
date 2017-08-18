@@ -101,3 +101,8 @@ func consume_item(sku):
 func purchase_success(par1,par2,sku):
 	pass
 ```
+
+Testing
+-------------
+
+To test the in app purchases on your Android phone, you need to install the 'Amazon App Tester' and load the JSON Data File from your Amazon-Developer Console to the root of your mobile phone / sd card.
