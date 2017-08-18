@@ -106,3 +106,5 @@ Testing
 -------------
 
 To test the in app purchases on your Android phone, you need to install the 'Amazon App Tester' and load the JSON Data File from your Amazon-Developer Console to the root of your mobile phone / sd card.
+
+![alt text](https://raw.githubusercontent.com/JoshNinetySeven/godot-amazon-android-module/master/documentation/screenshot_2.png)
