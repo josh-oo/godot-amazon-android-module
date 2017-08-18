@@ -87,7 +87,7 @@ public class AmazonGameCircle extends Godot.SingletonBase{
     }
 
     public void increase_achievement(final String achievementId,final float percent) {
-	      if (agsClient == null){Log.i(TAG, "AmazonGameCircle: agsClient=null increase_achievement"); return;}
+	if (agsClient == null){Log.i(TAG, "AmazonGameCircle: agsClient=null increase_achievement"); return;}
         activity.runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -131,7 +131,7 @@ public class AmazonGameCircle extends Godot.SingletonBase{
     }
 
     public void submit_leaderboard(final String leaderboardId,final float score) {
-	      if (agsClient == null){Log.i(TAG, "AmazonGameCircle: agsClient=null submit_leaderboard"); return;}
+	if (agsClient == null){Log.i(TAG, "AmazonGameCircle: agsClient=null submit_leaderboard"); return;}
         activity.runOnUiThread(new Runnable() {
             @Override
             public void run() {
